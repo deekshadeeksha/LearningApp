@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/grandparents" />
+
+    <Button
+        android:id="@+id/grandfather"
+        android:layout_width="34dp"
+        android:layout_height="33dp"
+        android:alpha="0.5"
+        android:background="@drawable/round_button"
+        tools:layout_editor_absoluteX="327dp"
+        tools:layout_editor_absoluteY="167dp" />
+
+    <Button
+        android:id="@+id/grandmother"
+        android:layout_width="34dp"
+        android:layout_height="33dp"
+        android:alpha="0.5"
+        android:background="@drawable/round_button"
+        tools:layout_editor_absoluteX="376dp"
+        tools:layout_editor_absoluteY="225dp" />
+
+    <Button
+        android:id="@+id/sistergrnd"
+        android:layout_width="34dp"
+        android:layout_height="33dp"
+        android:alpha="0.5"
+        android:background="@drawable/round_button"
+        tools:layout_editor_absoluteX="423dp"
+        tools:layout_editor_absoluteY="282dp" />
+
+    <Button
+        android:id="@+id/brothergrnd"
+        android:layout_width="34dp"
+        android:layout_height="33dp"
+        android:alpha="0.5"
+        android:background="@drawable/round_button"
+        tools:layout_editor_absoluteX="278dp"
+        tools:layout_editor_absoluteY="249dp" />
+
+</android.support.constraint.ConstraintLayout>

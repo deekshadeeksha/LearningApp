@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/farmpiccrop">
+
+    <Button
+        android:id="@+id/hen"
+        android:layout_width="27dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="73dp"
+        android:layout_marginEnd="128dp"
+        android:layout_marginBottom="76dp"
+        android:alpha="0.5"
+        android:background="@drawable/round_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/duck"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pig" />
+
+    <Button
+        android:id="@+id/dog"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="188dp"
+        android:layout_marginTop="192dp"
+        android:layout_marginEnd="473dp"
+        android:layout_marginBottom="136dp"
+        android:alpha="0.5"
+        android:background="@drawable/round_button"
+        app:layout_constraintBottom_toTopOf="@+id/chicken"
+        app:layout_constraintEnd_toStartOf="@+id/cow"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/duck"
+        android:layout_width="27dp"
+        android:layout_height="27dp"
+        android:layout_marginEnd="123dp"
+        android:layout_marginBottom="47dp"
+        android:alpha="0.5"
+        android:background="@drawable/round_button"
+        app:layout_constraintBottom_toTopOf="@+id/chicken"
+        app:layout_constraintEnd_toStartOf="@+id/horse"
+        app:layout_constraintStart_toEndOf="@+id/hen" />
+
+    <Button
+        android:id="@+id/sheep"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginEnd="200dp"
+        android:alpha="0.5"
+        android:background="@drawable/round_button"
+        app:layout_constraintBottom_toBottomOf="@+id/pig"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/pig"
+        app:layout_constraintTop_toBottomOf="@+id/cow" />
+
+    <Button
+        android:id="@+id/cat"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="66dp"
+        android:layout_marginEnd="65dp"
+        android:layout_marginBottom="66dp"
+        android:alpha="0.5"
+        android:background="@drawable/round_button"
+        app:layout_constraintBottom_toBottomOf="@+id/chicken"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/horse"
+        app:layout_constraintTop_toBottomOf="@+id/sheep" />
+
+    <Button
+        android:id="@+id/pig"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="73dp"
+        android:layout_marginTop="204dp"
+        android:layout_marginEnd="404dp"
+        android:layout_marginBottom="77dp"
+        android:alpha="0.5"
+        android:background="@drawable/round_button"
+        app:layout_constraintBottom_toTopOf="@+id/hen"
+        app:layout_constraintEnd_toStartOf="@+id/sheep"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/cow"
+        android:layout_width="27dp"
+        android:layout_height="27dp"
+        android:layout_marginTop="177dp"
+        android:layout_marginEnd="16dp"
+        android:alpha="0.5"
+        android:background="@drawable/round_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/dog"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/horse"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginEnd="242dp"
+        android:alpha="0.5"
+        android:background="@drawable/round_button"
+        app:layout_constraintBottom_toBottomOf="@+id/hen"
+        app:layout_constraintEnd_toStartOf="@+id/cat"
+        app:layout_constraintStart_toEndOf="@+id/duck"
+        app:layout_constraintTop_toBottomOf="@+id/duck" />
+
+    <Button
+        android:id="@+id/chicken"
+        android:layout_width="27dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="175dp"
+        android:layout_marginEnd="176dp"
+        android:layout_marginBottom="29dp"
+        android:alpha="0.5"
+        android:background="@drawable/round_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/horse"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dog" />
+</android.support.constraint.ConstraintLayout>

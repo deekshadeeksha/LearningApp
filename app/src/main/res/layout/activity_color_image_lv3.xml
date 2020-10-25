@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".ColorImageLV3"
+    android:background="@drawable/backcloudsdarksmall"
+    android:orientation="horizontal">
+    <FrameLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/background_one"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/backcloudsdarksmall"/>
+
+        <ImageView
+            android:id="@+id/background_two"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/backcloudsdarksmall" />
+
+    </FrameLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="583dp"
+        android:layout_height="340dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="17dp"
+        android:background="@drawable/round_border"
+        android:clipToPadding="false"
+        android:scrollbars="vertical" />
+
+    <Button
+        android:id="@+id/backcil3"
+        android:layout_width="52dp"
+        android:layout_height="52dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="296dp"
+        android:onClick="goBackcil3"
+        android:background="@drawable/buttonback" />
+
+</RelativeLayout>

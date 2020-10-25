@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundtwo"
+    tools:context=".Numbers">
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="59dp"
+        android:layout_height="45dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="138dp"
+        android:layout_marginEnd="0dp"
+        android:background="@drawable/buttonright"
+        />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="59dp"
+        android:layout_height="45dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="138dp"
+        android:layout_marginEnd="679dp"
+        android:background="@drawable/buttonleft"
+        />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="427dp"
+        android:layout_height="276dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="47dp"
+        app:srcCompat="@drawable/one" />
+
+    <Button
+        android:id="@+id/backn"
+        android:layout_width="52dp"
+        android:layout_height="52dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="299dp"
+        android:onClick="goBackn"
+        android:background="@drawable/buttonback" />
+
+</RelativeLayout>

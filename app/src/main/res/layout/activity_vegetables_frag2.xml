@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VegetablesFrag2">
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:src="@drawable/vegetables2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/peas2"
+        android:layout_width="38dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="19dp"
+        android:layout_marginBottom="130dp"
+        android:alpha="0.5"
+        android:background="@drawable/round_button"
+        app:layout_constraintBottom_toTopOf="@+id/turnip2"
+        app:layout_constraintEnd_toStartOf="@+id/carrot2"
+        app:layout_constraintStart_toStartOf="@+id/turnip2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/onion2"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="218dp"
+        android:layout_marginTop="108dp"
+        android:layout_marginEnd="142dp"
+        android:layout_marginBottom="130dp"
+        android:alpha="0.5"
+        android:background="@drawable/round_button"
+        app:layout_constraintBottom_toTopOf="@+id/chili2"
+        app:layout_constraintEnd_toStartOf="@+id/garlic2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/garlic2"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="108dp"
+        android:layout_marginEnd="295dp"
+        android:layout_marginBottom="141dp"
+        android:alpha="0.5"
+        android:background="@drawable/round_button"
+        app:layout_constraintBottom_toTopOf="@+id/carrot2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/onion2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/chili2"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="196dp"
+        android:layout_marginEnd="143dp"
+        android:layout_marginBottom="101dp"
+        android:alpha="0.5"
+        android:background="@drawable/round_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/carrot2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/onion2" />
+
+    <Button
+        android:id="@+id/turnip2"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="300dp"
+        android:layout_marginTop="214dp"
+        android:layout_marginEnd="135dp"
+        android:layout_marginBottom="82dp"
+        android:alpha="0.5"
+        android:background="@drawable/round_button"
+        app:layout_constraintBottom_toTopOf="@+id/cauliflower2"
+        app:layout_constraintEnd_toStartOf="@+id/potato"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/carrot2"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="316dp"
+        android:layout_marginBottom="90dp"
+        android:alpha="0.5"
+        android:background="@drawable/round_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/chili2"
+        app:layout_constraintTop_toBottomOf="@+id/garlic2" />
+
+    <Button
+        android:id="@+id/potato"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="187dp"
+        android:layout_marginEnd="222dp"
+        android:layout_marginBottom="119dp"
+        android:alpha="0.5"
+        android:background="@drawable/round_button"
+        app:layout_constraintBottom_toTopOf="@+id/capsicum"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/turnip2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/cauliflower2"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="282dp"
+        android:layout_marginEnd="150dp"
+        android:layout_marginBottom="44dp"
+        android:alpha="0.5"
+        android:background="@drawable/round_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/capsicum"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/turnip2" />
+
+    <Button
+        android:id="@+id/capsicum"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="222dp"
+        android:layout_marginBottom="33dp"
+        android:alpha="0.5"
+        android:background="@drawable/round_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/cauliflower2"
+        app:layout_constraintTop_toBottomOf="@+id/potato" />
+</android.support.constraint.ConstraintLayout>

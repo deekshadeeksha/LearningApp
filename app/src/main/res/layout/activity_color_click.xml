@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rellayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ColorClick">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="13dp"
+        android:fontFamily="@font/pacifico"
+        android:text="Click Anywhere!!!"
+        android:textSize="20dp"
+        android:textColor="#000" />
+
+    <Button
+        android:id="@+id/backcc"
+        android:layout_width="52dp"
+        android:layout_height="52dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="299dp"
+        android:onClick="goBackcc"
+        android:background="@drawable/buttonback" />
+
+</RelativeLayout>

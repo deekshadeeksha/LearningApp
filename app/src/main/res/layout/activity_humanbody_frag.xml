@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/humanbody" />
+
+    <Button
+        android:id="@+id/grandfather"
+        android:layout_width="6dp"
+        android:layout_height="7dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="255dp"
+        android:layout_marginTop="168dp"
+        android:alpha="0.5"
+        android:background="@drawable/round_button" />
+
+    <Button
+        android:id="@+id/ear"
+        android:layout_width="13dp"
+        android:layout_height="13dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="188dp"
+        android:layout_marginTop="139dp"
+        android:alpha="0.5"
+        android:background="@drawable/round_button" />
+
+    <Button
+        android:id="@+id/leg"
+        android:layout_width="13dp"
+        android:layout_height="13dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="234dp"
+        android:layout_marginTop="357dp"
+        android:alpha="0.5"
+        android:background="@drawable/round_button" />
+
+    <Button
+        android:id="@+id/eye"
+        android:layout_width="10dp"
+        android:layout_height="8dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="220dp"
+        android:layout_marginTop="136dp"
+        android:alpha="0.5"
+        android:background="@drawable/round_button" />
+
+    <Button
+        android:id="@+id/nose"
+        android:layout_width="8dp"
+        android:layout_height="7dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="254dp"
+        android:layout_marginTop="137dp"
+        android:alpha="0.5"
+        android:background="@drawable/round_button" />
+
+    <Button
+        android:id="@+id/hand"
+        android:layout_width="13dp"
+        android:layout_height="13dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="182dp"
+        android:layout_marginTop="276dp"
+        android:alpha="0.5"
+        android:background="@drawable/round_button" />
+
+    <Button
+        android:id="@+id/head"
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="263dp"
+        android:layout_marginTop="48dp"
+        android:alpha="0.5"
+        android:background="@drawable/round_button" />
+
+    <Button
+        android:id="@+id/foot"
+        android:layout_width="13dp"
+        android:layout_height="13dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="235dp"
+        android:layout_marginTop="391dp"
+        android:alpha="0.5"
+        android:background="@drawable/round_button" />
+</RelativeLayout>

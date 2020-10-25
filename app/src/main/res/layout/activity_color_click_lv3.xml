@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundtwo"
+    tools:context=".ColorClickLV3">
+
+    <FrameLayout
+        android:id="@+id/colorcontainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/prevccl3"
+        android:layout_width="52dp"
+        android:layout_height="52dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/buttonleft" />
+
+    <Button
+        android:id="@+id/nextccl3"
+        android:layout_width="52dp"
+        android:layout_height="52dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="632dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/buttonright" />
+
+    <Button
+        android:id="@+id/backccl3"
+        android:layout_width="52dp"
+        android:layout_height="52dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="299dp"
+        android:background="@drawable/buttonback"
+        android:onClick="goBackccl3" />
+</RelativeLayout>

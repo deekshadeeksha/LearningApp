@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OccupationFrag">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="352dp"
+        android:layout_height="335dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/doctor" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="352dp"
+        android:layout_height="335dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="373dp"
+        android:layout_marginTop="25dp"
+        android:src="@drawable/teacher" />
+
+    <Button
+        android:id="@+id/doctor2"
+        android:layout_width="34dp"
+        android:layout_height="33dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="199dp"
+        android:alpha="0.5"
+        android:background="@drawable/round_button" />
+
+    <Button
+        android:id="@+id/doctor"
+        android:layout_width="34dp"
+        android:layout_height="33dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="222dp"
+        android:layout_marginTop="174dp"
+        android:alpha="0.5"
+        android:background="@drawable/round_button" />
+
+    <Button
+        android:id="@+id/teacher"
+        android:layout_width="34dp"
+        android:layout_height="33dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="622dp"
+        android:layout_marginTop="190dp"
+        android:alpha="0.5"
+        android:background="@drawable/round_button" />
+</RelativeLayout>

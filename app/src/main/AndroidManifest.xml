@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.learningapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/sparshlogo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:screenOrientation="landscape"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity
+            android:name=".PuzzleLV1Part3"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".PuzzleLV1Part2"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Puzzle"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".ColorImageLV3"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".DrawingLV2"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".ColorImageLV2"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".NumbersLV3"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".NumbersLV2"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Numbers"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".ColorClickLV3"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".ColorClickLV2"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".TouchSpeakLV3"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".TouchSpeakLV2"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".TouchSpeak"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".PuzzleLV3"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".PuzzleLV2"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".ColorClick"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Drawing"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".AlphabetsLV2"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".AlphabetsLV3"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Alphabets"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".MainMenu"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Levels"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".MatchColors"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

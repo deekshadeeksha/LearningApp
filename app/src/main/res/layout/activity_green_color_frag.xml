@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RedColorFrag">
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="208dp"
+        android:layout_height="178dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="243dp"
+        android:layout_marginTop="10dp"
+        app:srcCompat="@drawable/greencircle" />
+
+    <ImageView
+        android:id="@+id/gg"
+        android:layout_width="132dp"
+        android:layout_height="149dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="207dp"
+        app:srcCompat="@drawable/greeng" />
+
+    <ImageView
+        android:id="@+id/gr"
+        android:layout_width="122dp"
+        android:layout_height="140dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="154dp"
+        android:layout_marginTop="206dp"
+        app:srcCompat="@drawable/greenr" />
+
+    <ImageView
+        android:id="@+id/ge1"
+        android:layout_width="146dp"
+        android:layout_height="142dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="442dp"
+        android:layout_marginTop="208dp"
+        app:srcCompat="@drawable/greene" />
+
+    <ImageView
+        android:id="@+id/ge2"
+        android:layout_width="141dp"
+        android:layout_height="141dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="291dp"
+        android:layout_marginTop="207dp"
+        app:srcCompat="@drawable/greene" />
+
+    <ImageView
+        android:id="@+id/gn"
+        android:layout_width="123dp"
+        android:layout_height="145dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="595dp"
+        android:layout_marginTop="204dp"
+        app:srcCompat="@drawable/greenn" />
+
+</RelativeLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backcloudsdarksmall"
+    tools:context=".Levels">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="646dp"
+        android:layout_height="266dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="129dp"
+        app:srcCompat="@drawable/gray" />
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="189dp"
+        android:layout_height="135dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="59dp"
+        android:layout_marginTop="160dp"
+        app:srcCompat="@drawable/level1" />
+
+    <ImageView
+        android:id="@+id/img2"
+        android:layout_width="189dp"
+        android:layout_height="135dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="273dp"
+        android:layout_marginTop="103dp"
+        app:srcCompat="@drawable/level2" />
+
+    <ImageView
+        android:id="@+id/img3"
+        android:layout_width="189dp"
+        android:layout_height="135dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="480dp"
+        android:layout_marginTop="19dp"
+        app:srcCompat="@drawable/level3" />
+
+    <Button
+        android:id="@+id/backlevel"
+        android:layout_width="52dp"
+        android:layout_height="52dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="242dp"
+        android:background="@drawable/buttonback"
+        android:onClick="goBacklevel" />
+
+</RelativeLayout>
